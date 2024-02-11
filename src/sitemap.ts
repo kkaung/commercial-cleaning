@@ -19,10 +19,44 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }));
 
     const routes = [
-        '',
-
         '/commercial-cleaning-sydney',
         '/commercial-cleaning-melbourne',
+
+        '/office-cleaning-sydney',
+        '/office-cleaning-melbourne',
+
+        '/strata-cleaning-sydney',
+        '/strata-cleaning-melbourne',
+
+        '/medical-cleaning-sydney',
+        '/medical-cleaning-melbourne',
+
+        '/gym-cleaning-sydney',
+        '/gym-cleaning-melbourne',
+
+        '/childcare-cleaning-sydney',
+        '/childcare-cleaning-melbourne',
+
+        '/hotel-cleaning-sydney',
+        '/hotel-cleaning-melbourne',
+
+        '/school-cleaning-sydney',
+        '/school-cleaning-melbourne',
+
+        '/warehouse-cleaning-sydney',
+        '/warehouse-cleaning-melbourne',
+
+        '/church-cleaning-sydney',
+        '/church-cleaning-melbourne',
+
+        '/club-cleaning-sydney',
+        '/club-cleaning-melbourne',
+
+        '/supermarket-cleaning-sydney',
+        '/supermarket-cleaning-melbourne',
+
+        '/restaurant-cleaning-sydney',
+        '/restaurant-cleaning-melbourne',
     ].map(route => ({
         url: absoluteUrl(route),
         lastModified: new Date().toISOString(),
