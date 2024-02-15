@@ -39,7 +39,7 @@ export default function Hero({ location, ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    Top Rated Office Cleaning Company In {location}
+                    Top Rated Hotel Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
                     We are a Sydney-based boutique law firm that provides full

@@ -57,6 +57,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
         '/restaurant-cleaning-sydney',
         '/restaurant-cleaning-melbourne',
+
+        '/showroom-cleaning-sydney',
+        '/showroom-cleaning-melbourne',
     ].map(route => ({
         url: absoluteUrl(route),
         lastModified: new Date().toISOString(),
