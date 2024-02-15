@@ -4,21 +4,21 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook: 'https://www.facebook.com/people/RZ-Cleaning/61555684296875/',
-    instagram: 'https://instagram.com/rzcleaning_au',
-    twitter: 'https://twitter.com/rzclenaing_au',
-    pinterest: 'https://www.pinterest.com.au/rzcleaning_syd',
-    linkin: 'https://www.linkedin.com/company/rz-cleaning',
-    youtube: 'https://www.youtube.com/channel/UC3Awh2GdY3eWuAxJx7_NtaQ',
+    facebook: 'https://www.facebook.com/',
+    instagram: 'https://instagram.com/',
+    twitter: 'https://twitter.com/',
+    pinterest: 'https://www.pinterest.com.au/',
+    linkin: 'https://www.linkedin.com/company/',
+    youtube: 'https://www.youtube.com/channel/',
     googlemap: '',
 
-    buynsw: 'https://buy.nsw.gov.au/supplier/profile/160972',
-    yelp: 'https://www.yelp.com/biz/rz-cleaning-waterloo',
+    buynsw: '',
+    yelp: '',
 };
 
 export const siteConfig = {
-    logo: 'AZCleaning',
-    name: 'AZ Immigration',
+    logo: 'RZCommercialClean',
+    name: 'RZ Commercial Clean',
     title: ``,
     description: '',
     url: 'https://rzcleaning.com.au',
@@ -259,6 +259,19 @@ export const siteConfig = {
                 {
                     title: 'Restaurant Cleaning Melbourne',
                     href: '/restaurant-cleaning-melbourne',
+                },
+            ],
+        },
+        {
+            title: 'Showroom Cleaning',
+            items: [
+                {
+                    title: 'Showroom Cleaning Sydney',
+                    href: '/showroom-cleaning-sydney',
+                },
+                {
+                    title: 'Showroom Cleaning Melbourne',
+                    href: '/showroom-cleaning-melbourne',
                 },
             ],
         },

@@ -2,7 +2,7 @@ import { Icons } from '@/components/icons';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React, { type HTMLAttributes } from 'react';
-import { headingVariants } from '@/components/page-header';
+import { descriptionVariants, headingVariants } from '@/components/page-header';
 import AccordionItemList from '@/components/accordion-item-list';
 import { FAQPageJsonLd } from 'next-seo';
 
@@ -15,6 +15,23 @@ const getFAQs = (location?: string) => {
         {
             question: 'How long will it take to clean my house?',
             answer: `The duration of the cleaning process is contingent on your home's condition. A quick rule of thumb is to match the number of bedrooms with the estimated hours needed (e.g. 3 bedrooms would typically require around 3 hours)`,
+        },
+        {
+            question: 'How many your cleaners will come to clean my house?',
+            answer: `Our standard consists of a team of two cleaners, with the possibility of an additional team member joining as required. However, for smaller tasks such as Studio, 1BR, 2BR, or touch-up jobs, one person may be assigned.`,
+        },
+        {
+            question:
+                'Does someone have to visit my house before I can book a cleaning service?',
+            answer: 'Absolutely not! We respect your privacy and avoid intrusive home visits. You can conveniently receive a quote and schedule your cleaning service online, completing the entire process in about 60 seconds.',
+        },
+        {
+            question: 'Can I get a same-day booking?',
+            answer: 'No assurance for same-day bookings, but we often meet the request depending on the day.',
+        },
+        {
+            question: 'Can I get a receipt to show my real estate agent?',
+            answer: 'Absolutely. Once your cleaning service has been completed and your card has been charged, a service receipt will automatically be emailed to you.',
         },
         {
             question: `What is your cancellation policy?`,

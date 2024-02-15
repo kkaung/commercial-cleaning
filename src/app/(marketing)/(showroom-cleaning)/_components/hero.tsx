@@ -12,16 +12,16 @@ import { siteConfig } from '@/configs/site';
 import { cn } from '@/lib/utils';
 import Link from 'next/link';
 import React, { type HTMLAttributes } from 'react';
-import Image from 'next/image';
-import HeroOneImage from '/public/assets/images/hero-one.jpeg';
-import HeroTwoImage from '/public/assets/images/hero-two.jpeg';
-import Autoplay from 'embla-carousel-autoplay';
-import { AspectRatio } from '@/components/ui/aspect-ratio';
 import {
     Carousel,
     CarouselContent,
     CarouselItem,
 } from '@/components/ui/carousel';
+import Autoplay from 'embla-carousel-autoplay';
+import { AspectRatio } from '@/components/ui/aspect-ratio';
+import Image from 'next/image';
+import HeroOneImage from '/public/assets/images/hero-one.jpeg';
+import HeroTwoImage from '/public/assets/images/hero-two.jpeg';
 
 interface HeroProps extends HTMLAttributes<HTMLElement> {
     location: string;
@@ -39,15 +39,13 @@ export default function Hero({ location, ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    {location}&apos;s Most In Demand <br /> Commercial Cleaning
-                    Company
+                    Commercial Showroom Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Cupiditate, quia nostrum! Corporis quos maxime ducimus,
-                    neque fugit et ipsum, dolorem reiciendis tempore vero
-                    perspiciatis exercitationem ex ut quod consequatur.
-                    Repellat.
+                    We are a Sydney-based boutique law firm that provides full
+                    Australian visa law visa services to individuals and
+                    businesses Australia-wide and internationally. Let us help
+                    you with your Australian visa.
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">
@@ -88,7 +86,7 @@ export default function Hero({ location, ...props }: HeroProps) {
                         href="/send-inquire"
                         className={cn(buttonVariants({ size: 'lg' }))}
                     >
-                        Enquire Wit Us
+                        Get A Quote
                     </Link>
                 </div>
             </div>

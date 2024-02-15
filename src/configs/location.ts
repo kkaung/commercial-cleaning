@@ -63,7 +63,6 @@ export const locations = [
             { title: 'Thornbury', slug: 'thornbury' },
         ],
     },
-   
 ];
 
 export const cities = ['Sydney', 'Melbourne'];

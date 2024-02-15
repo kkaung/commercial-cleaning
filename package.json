@@ -28,6 +28,8 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
     "contentlayer": "^0.3.4",
+    "embla-carousel-autoplay": "^8.0.0-rc22",
+    "embla-carousel-react": "^8.0.0-rc22",
     "lucide-react": "^0.316.0",
     "next": "14.0.4",
     "next-contentlayer": "^0.3.4",
