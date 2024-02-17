@@ -21,8 +21,8 @@ export const siteConfig = {
     name: 'RZ Commercial Clean',
     title: ``,
     description: '',
-    url: 'https://rzcleaning.com.au',
-    ogImage: 'https://rzcleaning.com.au/opengraph-image.png',
+    url: 'https://rzclean.com.au',
+    ogImage: 'https://rzclean.com.au/opengraph-image.png',
     mainNav: [
         {
             title: 'Locations',
