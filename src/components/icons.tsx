@@ -45,11 +45,17 @@ import {
     Sparkles,
     Youtube,
     Sticker,
+    Wand,
+    PersonStanding,
+    Sword,
 } from 'lucide-react';
 
 // export type Icon = LucideIcon;
 
 export const Icons = {
+    sword: Sword,
+    personStanding: PersonStanding,
+    wand: Wand,
     map: Map,
     star: Star,
     twitter: Twitter,

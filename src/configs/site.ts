@@ -14,11 +14,16 @@ const links = {
 
     buynsw: '',
     yelp: '',
+
+    bondtoclean: 'https://bondtoclean.com.au/bond-cleaning-sydney',
+    majormaid: 'https://majormaid.com.au/house-cleaner',
+    rzcleaning: 'https://rzcleaning.com.au/bond-cleaning-perth',
+    azcleaning: 'https://azcleaning.com.au/bond-cleaning-canberra',
 };
 
 export const siteConfig = {
-    logo: 'RZCommercialClean',
-    name: 'RZ Commercial Clean',
+    logo: 'RZClean',
+    name: 'RZClean',
     title: ``,
     description: '',
     url: 'https://rzclean.com.au',
