@@ -33,11 +33,9 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                             <span className="font-bold">{siteConfig.logo}</span>
                         </Link>
                         <p className="my-4 max-w-xs text-xs text-foreground/70 md:text-sm">
-                            AZImmigration is Sydney-based boutique law firm that
-                            provides full Australian visa law visa services to
-                            individuals and businesses Australia-wide and
-                            internationally. Let us help you with your
-                            Australian visa.
+                            Reliable and professional commercial cleaning
+                            services tailored to your unique needs. Enjoy a
+                            spotless workspace and peace of mind with RZ Clean.
                         </p>
                         <div className="flex flex-col mt-2 space-y-2">
                             <div className={cn('cursor-pointer text-sm')}>

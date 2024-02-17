@@ -37,13 +37,12 @@ export default function Hero({ ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    Commercial Cleaning Sydney <br /> With 10 Years
+                    Australia&apos;s Most Reliable Commercial Cleaning Company
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    We keep Australia&apos;s businesses sparkling clean.
+                    On-demand flexibility, expert cleaning, and peace of mind.
+                    Get a free quote today!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

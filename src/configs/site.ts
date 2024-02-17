@@ -303,10 +303,10 @@ export const siteConfig = {
         },
     ] satisfies FooterItem[],
     business: {
-        email: 'contact@azcleaning.com.au',
+        email: 'contact@rzclean.com.au',
         phone: '1300 245 417',
-        address: '7/24-26 Blaxland Road, Ryde, NSW 2112',
-        openingHour: 'Mon – Sat: 9:00 AM – 5:00 PM',
+        address: '401/249 George St, 2017 NSW',
+        openingHour: 'Mon – Sun: 9:00 AM – 5:00 PM',
     },
     rating: {
         ratingValue: '4.9',
