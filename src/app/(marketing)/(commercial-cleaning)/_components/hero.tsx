@@ -43,11 +43,9 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Company
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Cupiditate, quia nostrum! Corporis quos maxime ducimus,
-                    neque fugit et ipsum, dolorem reiciendis tempore vero
-                    perspiciatis exercitationem ex ut quod consequatur.
-                    Repellat.
+                    Ready for a Sparkling Clean Workspace? Get a free quote
+                    today and discover why we&apos;re {location}&apos;s most
+                    in-demand commercial cleaning company!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

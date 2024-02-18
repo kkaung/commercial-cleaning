@@ -39,15 +39,15 @@ export default function Hero({ location, ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    Supermarket Cleaning Company In Sydey
+                    Aged Care Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    Shoppers crave a clean, inviting shopping experience.
-                    {siteConfig.name} provides {location}&apos;s reliable
-                    supermarket cleaning, guaranteeing spotless floors,
-                    sparkling shelves, and sanitized surfaces. Boost sales,
-                    prioritize hygiene, and see the happy customer difference.
-                    Get a free quote today!
+                    Immaculate spaces, empowered staff, and vibrant smiles.
+                    {siteConfig.name} provides {siteConfig.name}&apos;s
+                    top-rated aged care cleaning, ensuring a clean, sanitized,
+                    and welcoming environment that prioritizes resident
+                    well-being and staff satisfaction. Get a free quote today
+                    and experience the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">
@@ -57,8 +57,8 @@ export default function Hero({ location, ...props }: HeroProps) {
                             strokeWidth={3}
                         />
                         <p>
-                            Proactive migration support for individuals and
-                            businesses
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Fugiat, repellendus?
                         </p>
                     </div>
                     <div className="flex items-center">
@@ -68,8 +68,8 @@ export default function Hero({ location, ...props }: HeroProps) {
                             strokeWidth={3}
                         />
                         <p>
-                            Experienced at successfully appealing at court and
-                            tribunals
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Facilis, vitae!
                         </p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default function Hero({ location, ...props }: HeroProps) {
                         href="/send-inquire"
                         className={cn(buttonVariants({ size: 'lg' }))}
                     >
-                        Get A Quote
+                        Enquire Wit Us
                     </Link>
                 </div>
             </div>

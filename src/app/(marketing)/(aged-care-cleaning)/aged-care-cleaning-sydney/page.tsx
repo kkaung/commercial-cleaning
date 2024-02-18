@@ -22,12 +22,12 @@ export default function Page() {
             segments={[
                 { title: 'Home', href: '/' },
                 {
-                    title: 'Commercial Cleaning Melbourne',
-                    href: '/commercial-cleaning-melbourne',
+                    title: 'Commercial Cleaning Sydney',
+                    href: '/commercial-cleaning-sydney',
                 },
                 {
-                    title: 'Club Cleaning',
-                    href: '/club-cleaning-melbourne',
+                    title: 'Aged Care Cleaning',
+                    href: '/aged-care-cleaning-sydney',
                 },
             ]}
         />

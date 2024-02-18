@@ -5,8 +5,9 @@ export const getMetadata = (location: string): Metadata => {
     const pathname = getPathname();
 
     return {
-        title: `Gym Cleaning Service In ${location}`,
-        description: `From cardio machines to locker rooms, we clean it all! Reliable gym cleaning in ${location} for a top-to-bottom fresh feel. Get a free quote today!`,
+        title: `Aged Care Cleaning Service In ${location}`,
+        description: `Top-rated aged care cleaning in ${location}. We guarantee a sanitized and comfortable living space for your ${location} residents Get a free quote today!
+`,
         alternates: {
             canonical: pathname,
         },

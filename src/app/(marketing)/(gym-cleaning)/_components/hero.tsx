@@ -42,10 +42,11 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Gym Cleaning Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Keep your entire gym sparkling with our comprehensive
+                    cleaning services. We offer flexible scheduling, customized
+                    solutions, and industry-standard practices to ensure a
+                    clean, hygienic environment for your members and staff. Get
+                    a free quote and discover the top-rated difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

@@ -19,9 +19,10 @@ import { cn } from '@/lib/utils';
 import Autoplay from 'embla-carousel-autoplay';
 import Link from 'next/link';
 import React, { type HTMLAttributes } from 'react';
+import Image from 'next/image';
+
 import HeroOneImage from '/public/assets/images/hero-one.jpeg';
 import HeroTwoImage from '/public/assets/images/hero-two.jpeg';
-import Image from 'next/image';
 
 interface HeroProps extends HTMLAttributes<HTMLElement> {
     location: string;
@@ -42,10 +43,11 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Club & Pub Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Keep the party going without the after-party mess!
+                    {siteConfig.name} provides {location}&apos;s top-rated club
+                    & pub cleaning, ensuring spotless floors, sanitized
+                    surfaces, and happy patrons. Get a free quote today and
+                    experience the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

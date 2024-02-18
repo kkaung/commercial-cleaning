@@ -77,7 +77,7 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                     <section
                         id="footer-links"
                         aria-labelledby="footer-links-heading"
-                        className="grid flex-1 grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3"
+                        className="grid flex-1 grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3"
                     >
                         {siteConfig.footerNav.map(item => (
                             <div key={item.title} className="space-y-2">

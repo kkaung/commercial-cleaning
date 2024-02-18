@@ -42,10 +42,11 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Childcare Center Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Keep little ones safe and healthy with sparkling clean play
+                    spaces! {siteConfig.name} is {location}&apos;s top-rated
+                    childcare cleaning company, using gentle, eco-friendly
+                    methods to create a hygienic and nurturing environment. Get
+                    a free quote today and experience the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">
@@ -86,7 +87,7 @@ export default function Hero({ location, ...props }: HeroProps) {
                         href="/send-inquire"
                         className={cn(buttonVariants({ size: 'lg' }))}
                     >
-                        Enquire Wit Us
+                        Get A Quote
                     </Link>
                 </div>
             </div>

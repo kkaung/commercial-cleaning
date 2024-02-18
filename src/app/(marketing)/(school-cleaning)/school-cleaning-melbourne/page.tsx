@@ -22,6 +22,10 @@ export default function Page() {
             segments={[
                 { title: 'Home', href: '/' },
                 {
+                    title: 'Commercial Cleaning Melbourne',
+                    href: '/commercial-cleaning-melbourne',
+                },
+                {
                     title: 'School Cleaning',
                     href: '/school-cleaning-melbourne',
                 },

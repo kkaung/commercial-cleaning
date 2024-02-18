@@ -63,6 +63,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
         '/showroom-cleaning-sydney',
         '/showroom-cleaning-melbourne',
+
+        '/aged-care-cleaning-sydney',
+        '/aged-care-cleaning-melbourne',
     ].map(route => ({
         url: absoluteUrl(route),
         lastModified: new Date().toISOString(),

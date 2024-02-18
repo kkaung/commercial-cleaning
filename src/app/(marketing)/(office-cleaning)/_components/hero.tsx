@@ -44,10 +44,9 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Office Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Ready to transform your workspace? Contact {location}&apos;s
+                    top-rated office cleaning company for a free quote and
+                    sparkling results.
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

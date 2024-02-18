@@ -42,10 +42,10 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Hotel Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Elevate your guest experience with the #1 rated hotel
+                    cleaning in {location}. We guarantee spotless rooms, happy
+                    guests, and boosted revenue. Get a free quote today and
+                    experience the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

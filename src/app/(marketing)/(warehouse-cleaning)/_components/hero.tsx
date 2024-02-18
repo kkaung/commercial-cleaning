@@ -39,13 +39,14 @@ export default function Hero({ location, ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    Warehouse Cleaning Company In Sydney
+                    Warehouse Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Give your warehouse the clean it deserves with expert
+                    services from {siteConfig.name}. Our services ensure optimal
+                    functioning, improved inventory management, and a healthier
+                    work environment for your team. Get a free quote and see why
+                    we&apos;re {location}&apos;s best choice!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

@@ -42,10 +42,11 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated Medical Centre Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    From sterilization to deep cleaning, we cover it all!
+                    Top-rated medical center cleaning in {location} for a
+                    comprehensive clean. We guarantee a safe, hygienic
+                    environment for your patients and staff. Get a free quote
+                    today!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

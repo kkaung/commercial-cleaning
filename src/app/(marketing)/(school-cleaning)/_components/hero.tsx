@@ -42,10 +42,11 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Top Rated School Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Protect your students&apos; well-being and learning
+                    potential with {location}&apos;s #1 school cleaning service.
+                    We guarantee a sparkling clean environment, free from germs
+                    and allergens, for a healthier, more focused learning
+                    experience. Get a free quote today and see the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

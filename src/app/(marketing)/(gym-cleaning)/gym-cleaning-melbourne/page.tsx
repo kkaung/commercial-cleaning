@@ -26,8 +26,8 @@ export default function Page() {
                     href: '/commercial-cleaning-melbourne',
                 },
                 {
-                    title: 'Club Cleaning',
-                    href: '/club-cleaning-melbourne',
+                    title: 'Gym Cleaning',
+                    href: '/gym-cleaning-melbourne',
                 },
             ]}
         />

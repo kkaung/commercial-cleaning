@@ -281,6 +281,19 @@ export const siteConfig = {
             ],
         },
         {
+            title: 'Age Care Cleaning',
+            items: [
+                {
+                    title: 'Aged Care Cleaning Sydney',
+                    href: '/aged-care-cleaning-sydney',
+                },
+                {
+                    title: 'Aged Care Cleaning Melbourne',
+                    href: '/aged-care-cleaning-melbourne',
+                },
+            ],
+        },
+        {
             title: 'Userful Links',
             items: [
                 {

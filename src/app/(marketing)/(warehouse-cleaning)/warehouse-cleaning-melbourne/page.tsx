@@ -1,5 +1,5 @@
-import { getCityFromPath } from '@/lib/next';
 import React from 'react';
+import { getCityFromPath } from '@/lib/next';
 import { type Metadata } from 'next';
 
 import { getMetadata } from '../_components/metadata';
@@ -21,6 +21,10 @@ export default function Page() {
             city={city}
             segments={[
                 { title: 'Home', href: '/' },
+                {
+                    title: 'Commercial Cleaning Melbourne',
+                    href: '/commercial-cleaning-melbourne',
+                },
                 {
                     title: 'Warehouse Cleaning',
                     href: '/warehouse-cleaning-melbourne',

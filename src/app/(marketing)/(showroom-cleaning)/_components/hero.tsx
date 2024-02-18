@@ -42,10 +42,12 @@ export default function Hero({ location, ...props }: HeroProps) {
                     Commercial Showroom Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Immaculate displays, sparkling floors, happy clients.
+                    {siteConfig.name} provides {location}&apos;s top-rated
+                    commercial showroom cleaning, ensuring a spotless
+                    environment that elevates your brand, impresses visitors,
+                    and drives sales. Get a free quote today and experience the
+                    difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">

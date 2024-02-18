@@ -1,3 +1,5 @@
+'use client';
+
 import Dot from '@/components/dot';
 import { Icons } from '@/components/icons';
 import {
@@ -37,13 +39,14 @@ export default function Hero({ location, ...props }: HeroProps) {
         >
             <div className="space-y-6">
                 <PageHeaderHeading size="lg">
-                    Top Rated Office Cleaning Company <br /> In {location}
+                    Top Rated Church Cleaning Company In {location}
                 </PageHeaderHeading>
                 <PageHeaderDescription>
-                    We are a Sydney-based boutique law firm that provides full
-                    Australian visa law visa services to individuals and
-                    businesses Australia-wide and internationally. Let us help
-                    you with your Australian visa.
+                    Nurture spirituality in a sparkling sanctuary.
+                    {siteConfig.name} provides {location}&apos;s top-rated
+                    church cleaning, ensuring a pristine environment for
+                    worship, reflection, and community. Get a free quote today
+                    and experience the difference!
                 </PageHeaderDescription>
                 <div className="space-y-3 leading-tight">
                     <div className="flex items-center">
