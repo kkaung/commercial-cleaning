@@ -4,12 +4,12 @@ import type { FooterItem, MainNavItem } from '@/types';
 export type SiteConfig = typeof siteConfig;
 
 const links = {
-    facebook: 'https://www.facebook.com/',
-    instagram: 'https://instagram.com/',
-    twitter: 'https://twitter.com/',
-    pinterest: 'https://www.pinterest.com.au/',
-    linkin: 'https://www.linkedin.com/company/',
-    youtube: 'https://www.youtube.com/channel/',
+    facebook: 'https://www.facebook.com/people/RZ-Clean/61556268283106/',
+    instagram: 'https://instagram.com/rzclean_au',
+    twitter: 'https://twitter.com/rzclean_au',
+    pinterest: 'https://www.pinterest.com.au/rzclean_au',
+    linkin: 'https://www.linkedin.com/company/rzclean/',
+    youtube: 'https://www.youtube.com/channel/UCBNVu3ROfR33-6MfIkOXa9Q',
     googlemap: '',
 
     buynsw: '',
