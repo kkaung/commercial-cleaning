@@ -109,7 +109,7 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                 <section
                     id="footer-bottom"
                     aria-labelledby="footer-bottom-heading"
-                    className="flex items-center flex-col space-x-3 sm:flex-row sm:items-center"
+                    className="flex items-center flex-col space-x-3 lg:flex-row lg:items-center"
                 >
                     <div className="flex items-center flex-col gap-4 flex-1 text-xs leading-tight md:flex-row">
                         <div className="text-left">
@@ -127,7 +127,7 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                             </Link>
                         </div>
                     </div>
-                    <div className="mt-3 flex items-center gap-6">
+                    <div className="mt-3 flex items-center justify-center gap-x-6 gap-y-2 flex-wrap">
                         <Link
                             aria-label="Facebook"
                             target="_blank"
@@ -231,6 +231,13 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                             title="RZCleaning - End Of Lease Bond Cleaning In Canberra"
                         >
                             <Icons.sword aria-hidden className="h-4 w-4" />
+                        </Link>
+                        <Link
+                            target="_blank"
+                            href={siteConfig.links.majormaid}
+                            title="MajorMaid - House Cleaning Service In Sydney"
+                        >
+                            <Icons.wheat aria-hidden className="h-4 w-4" />
                         </Link>
                     </div>
                 </section>

@@ -5,19 +5,19 @@ export type SiteConfig = typeof siteConfig;
 
 const links = {
     facebook: 'https://www.facebook.com/people/RZ-Clean/61556268283106/',
-    instagram: 'https://instagram.com/rzclean_au',
     twitter: 'https://twitter.com/rzclean_au',
+    instagram: 'https://instagram.com/rzclean_au',
     pinterest: 'https://www.pinterest.com.au/rzclean_au',
     linkin: 'https://www.linkedin.com/company/rzclean/',
     youtube: 'https://www.youtube.com/channel/UCBNVu3ROfR33-6MfIkOXa9Q',
     googlemap: '',
-    trustpilot: '',
+    trustpilot: 'https://au.trustpilot.com/review/rzclean.com.au',
 
     buynsw: '',
     yelp: '',
 
     bondtoclean: 'https://bondtoclean.com.au/bond-cleaning-sydney',
-    majormaid: 'https://majormaid.com.au/house-cleaner',
+    majormaid: 'https://majormaid.com.au/house-cleaner-sydney',
     rzcleaning: 'https://rzcleaning.com.au/bond-cleaning-perth',
     azcleaning: 'https://azcleaning.com.au/bond-cleaning-canberra',
 };

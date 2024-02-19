@@ -48,6 +48,7 @@ import {
     Wand,
     PersonStanding,
     Sword,
+    Wheat,
 } from 'lucide-react';
 
 // export type Icon = LucideIcon;
@@ -102,6 +103,7 @@ export const Icons = {
     shieldCheck: ShieldCheck,
     sparkles: Sparkles,
     sticker: Sticker,
+    wheat: Wheat,
     starFull: (props: LucideProps) => (
         <svg
             xmlns="http://www.w3.org/2000/svg"
