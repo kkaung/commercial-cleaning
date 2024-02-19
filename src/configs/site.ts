@@ -11,6 +11,7 @@ const links = {
     linkin: 'https://www.linkedin.com/company/rzclean/',
     youtube: 'https://www.youtube.com/channel/UCBNVu3ROfR33-6MfIkOXa9Q',
     googlemap: '',
+    trustpilot: '',
 
     buynsw: '',
     yelp: '',

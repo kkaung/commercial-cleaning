@@ -191,6 +191,15 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                             <Icons.sticker aria-hidden className="h-4 w-4" />
                         </Link>
                         <Link
+                            aria-label="Trustpilot"
+                            target="_blank"
+                            href={siteConfig.links.trustpilot}
+                            rel="nofollow"
+                            title="Trustpilot"
+                        >
+                            <Icons.star aria-hidden className="h-4 w-4" />
+                        </Link>
+                        <Link
                             aria-label="Yelp"
                             target="_blank"
                             href={siteConfig.links.yelp}
