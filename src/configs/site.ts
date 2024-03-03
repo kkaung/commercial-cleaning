@@ -20,6 +20,7 @@ const links = {
     majormaid: 'https://majormaid.com.au/house-cleaner-sydney',
     rzcleaning: 'https://rzcleaning.com.au/bond-cleaning-perth',
     azcleaning: 'https://azcleaning.com.au/bond-cleaning-canberra',
+    coastmaid: 'https://coastmaid.com.au',
 };
 
 export const siteConfig = {

@@ -239,6 +239,13 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                         >
                             <Icons.wheat aria-hidden className="h-4 w-4" />
                         </Link>
+                        <Link
+                            target="_blank"
+                            href={siteConfig.links.coastmaid}
+                            title="Coast Maid - Gold Coast's House Cleaning Company"
+                        >
+                            <Icons.crop aria-hidden className="h-4 w-4" />
+                        </Link>
                     </div>
                 </section>
             </Shell>
