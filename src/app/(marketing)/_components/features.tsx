@@ -47,7 +47,7 @@ const getItmes = (location: string) => {
 };
 
 export default function Features({ ...props }: FeaturesProps) {
-    const items = getItmes('');
+    const items = getItmes('Sydney & Melbourne');
 
     return (
         <section

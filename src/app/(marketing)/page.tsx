@@ -11,6 +11,7 @@ import LatestPost from './_components/latest-posts';
 import FAQs from './_components/faqs';
 import Reviews from './_components/reviews';
 import Features from './_components/features';
+import Sponsorship from './_components/sponsorship';
 
 export const runtime = 'edge';
 
@@ -35,6 +36,7 @@ export default function Page() {
                 <Features />
                 <FAQs />
                 <LatestPost />
+                <Sponsorship />
             </Shell>
             <OrganizationJsonLd
                 useAppDir

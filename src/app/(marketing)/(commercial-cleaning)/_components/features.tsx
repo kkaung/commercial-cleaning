@@ -10,15 +10,15 @@ interface FeaturesProps extends HTMLAttributes<HTMLElement> {
 const getItmes = (location: string) => {
     return [
         {
-            title: '100% Bond Back Guarantee',
-            content: `If your real estate agent spots any issues within 72 hours after our clean, we'll come back to fix them—completely free of charge.`,
+            title: '200% Satisfaction Guarantee',
+            content: `Book with confidence knowing your satisfaction is guaranteed. If anything isn't spotless, we'll happily reclean the area in free of charge.`,
         },
         {
             title: 'Simple & Easy Booking',
-            content: `Bond cleans are booked online with one simple process, using your phone or computer.`,
+            content: `Our cleaning services are booked online with one simple process, using your phone or computer.`,
         },
         {
-            title: 'Expert Bond Cleaners',
+            title: 'Expert Commercial Cleaners',
             content: `Our staff are professionally trained so you can trust our cleaning teams to do the best job possible so you can get your bond back.`,
         },
         {
@@ -27,7 +27,7 @@ const getItmes = (location: string) => {
         },
         {
             title: 'Full Liability Insurance',
-            content: `Our end of lease cleaning service is covered by our $10 million public liability insurance.`,
+            content: `Our cleaning service is covered by our $20 million public liability insurance.`,
         },
         {
             title: 'Exceptional Customer Service',

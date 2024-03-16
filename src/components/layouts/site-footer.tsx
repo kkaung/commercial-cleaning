@@ -208,44 +208,6 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                         >
                             <Icons.yelp aria-hidden className="h-4 w-4" />
                         </Link>
-                        <Link
-                            target="_blank"
-                            href={siteConfig.links.bondtoclean}
-                            title="BondToClean - End Of Lease Cleaning Service In Sydney"
-                        >
-                            <Icons.sparkles aria-hidden className="h-4 w-4" />
-                        </Link>
-                        <Link
-                            target="_blank"
-                            href={siteConfig.links.rzcleaning}
-                            title="RZCleaning - End Of Lease Bond Cleaning In Perth"
-                        >
-                            <Icons.personStanding
-                                aria-hidden
-                                className="h-4 w-4"
-                            />
-                        </Link>
-                        <Link
-                            target="_blank"
-                            href={siteConfig.links.azcleaning}
-                            title="RZCleaning - End Of Lease Bond Cleaning In Canberra"
-                        >
-                            <Icons.sword aria-hidden className="h-4 w-4" />
-                        </Link>
-                        <Link
-                            target="_blank"
-                            href={siteConfig.links.majormaid}
-                            title="MajorMaid - House Cleaning Service In Sydney"
-                        >
-                            <Icons.wheat aria-hidden className="h-4 w-4" />
-                        </Link>
-                        <Link
-                            target="_blank"
-                            href={siteConfig.links.coastmaid}
-                            title="Coast Maid - Gold Coast's House Cleaning Company"
-                        >
-                            <Icons.crop aria-hidden className="h-4 w-4" />
-                        </Link>
                     </div>
                 </section>
             </Shell>
