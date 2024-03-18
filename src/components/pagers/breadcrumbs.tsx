@@ -1,9 +1,8 @@
 import * as React from 'react';
 import Link from 'next/link';
 import { SlashIcon } from '@radix-ui/react-icons';
-import { absoluteUrl, cn, truncate } from '@/lib/utils';
+import { cn, truncate } from '@/lib/utils';
 import Dot from '@/components/dot';
-import { BreadcrumbJsonLd } from 'next-seo';
 import { Icons } from '@/components/icons';
 
 interface BreadcrumbsProps extends React.HTMLAttributes<HTMLElement> {
@@ -56,7 +55,7 @@ export function Breadcrumbs({
                             {isFirstSegment ? (
                                 <Link
                                     href="/"
-                                    title="Commercial Cleaning Company In Australia"
+                                    title="RZ Clean - Commercial Cleaning"
                                 >
                                     <Icons.home
                                         aria-hidden
@@ -101,16 +100,6 @@ export function Breadcrumbs({
                     );
                 })}
             </nav>
-            <BreadcrumbJsonLd
-                useAppDir
-                itemListElements={segments.map((segment, idx) => {
-                    return {
-                        position: idx + 1,
-                        name: segment.title,
-                        item: absoluteUrl(segment.href),
-                    };
-                })}
-            />
         </>
     );
 }

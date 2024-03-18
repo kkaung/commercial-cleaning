@@ -1,10 +1,8 @@
 import React from 'react';
 import { Shell } from '@/components/shell';
 import { type Metadata } from 'next';
-import { BreadcrumbJsonLd, OrganizationJsonLd } from 'next-seo';
-import { absoluteUrl } from '@/lib/utils';
-import { siteConfig } from '@/configs/site';
 import { getPathname } from '@/lib/next';
+import { OrganizationSchema } from '@/lib/dts-schema';
 
 import Hero from './_components/hero';
 import LatestPost from './_components/latest-posts';
@@ -28,6 +26,9 @@ export function generateMetadata(): Metadata {
 }
 
 export default function Page() {
+
+    const jsonLd = OrganizationSchema;
+
     return (
         <>
             <Shell>
@@ -38,41 +39,6 @@ export default function Page() {
                 <LatestPost />
                 <Sponsorship />
             </Shell>
-            <OrganizationJsonLd
-                useAppDir
-                id={absoluteUrl('')}
-                type=""
-                name={siteConfig.name}
-                description={siteConfig.description}
-                legalName={siteConfig.name}
-                url={absoluteUrl('')}
-                logo={absoluteUrl('/')}
-                sameAs={[siteConfig.links.facebook, siteConfig.links.linkin]}
-                address={{
-                    streetAddress: '101/ 761 - 763 George St Haymarket',
-                    addressLocality: 'Sydney',
-                    addressRegion: 'NSW',
-                    postalCode: '2000',
-                    addressCountry: 'AU',
-                }}
-                aggregateRating={{
-                    ratingValue: siteConfig.rating.ratingValue,
-                    ratingCount: siteConfig.rating.ratingCount,
-                }}
-                brand={{
-                    name: siteConfig.name,
-                }}
-            />
-            <BreadcrumbJsonLd
-                useAppDir
-                itemListElements={[
-                    {
-                        position: 1,
-                        name: 'Home',
-                        item: absoluteUrl('/'),
-                    },
-                ]}
-            />
         </>
     );
 }

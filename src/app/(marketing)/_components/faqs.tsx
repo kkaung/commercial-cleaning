@@ -79,7 +79,6 @@ export default function FAQs({ location = 'Sydney', ...props }: FAQsProps) {
                     </div>
                 </div>
             </section>
-            <FAQPageJsonLd useAppDir mainEntity={faqs} />
         </>
     );
 }
