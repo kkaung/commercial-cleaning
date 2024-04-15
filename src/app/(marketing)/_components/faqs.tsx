@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React, { type HTMLAttributes } from 'react';
 import { headingVariants } from '@/components/page-header';
 import AccordionItemList from '@/components/accordion-item-list';
-import { FAQPageJsonLd } from 'next-seo';
 
 const getFAQs = (location?: string) => {
     return [

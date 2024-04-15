@@ -10,9 +10,7 @@ export default function Sponsorship({ ...props }: SponsorshipProps) {
         <section className={cn(props.className, 'sr-only')}>
             <div>
                 Looking for professional house cleaning services in Gold Coast?
-                <Link href={siteConfig.links.coastmaid}>
-                    Coast Maid - Cleaning Service Gold Coast
-                </Link>
+                <Link href={siteConfig.links.coastmaid}>Coast Maid</Link>
                 has you covered! Click here to visit their homepage and book
                 your cleaning appointment today.
             </div>

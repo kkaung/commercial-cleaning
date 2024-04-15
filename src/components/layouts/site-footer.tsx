@@ -7,7 +7,6 @@ import { type HTMLAttributes } from 'react';
 import { Separator } from '@/components/ui/separator';
 
 import Dot from '../dot';
-import FooterTabs from '../footer-tabs';
 
 interface SiteFooterProps extends HTMLAttributes<HTMLElement> {}
 
@@ -103,8 +102,6 @@ export default async function SiteFooter({ ...props }: SiteFooterProps) {
                         ))}
                     </section>
                 </section>
-                <Separator />
-                <FooterTabs />
                 <Separator />
                 <section
                     id="footer-bottom"

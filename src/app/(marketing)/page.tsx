@@ -2,7 +2,6 @@ import React from 'react';
 import { Shell } from '@/components/shell';
 import { type Metadata } from 'next';
 import { getPathname } from '@/lib/next';
-import { OrganizationSchema } from '@/lib/dts-schema';
 
 import Hero from './_components/hero';
 import LatestPost from './_components/latest-posts';
@@ -26,19 +25,14 @@ export function generateMetadata(): Metadata {
 }
 
 export default function Page() {
-
-    const jsonLd = OrganizationSchema;
-
     return (
-        <>
-            <Shell>
-                <Hero />
-                <Reviews />
-                <Features />
-                <FAQs />
-                <LatestPost />
-                <Sponsorship />
-            </Shell>
-        </>
+        <Shell>
+            <Hero />
+            <Reviews />
+            <Features />
+            <FAQs />
+            <LatestPost />
+            <Sponsorship />
+        </Shell>
     );
 }
