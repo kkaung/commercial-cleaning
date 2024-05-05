@@ -4,6 +4,7 @@ import { SlashIcon } from '@radix-ui/react-icons';
 import { cn, truncate } from '@/lib/utils';
 import Dot from '@/components/dot';
 import { Icons } from '@/components/icons';
+import { siteConfig } from '@/configs/site';
 
 interface BreadcrumbsProps extends React.HTMLAttributes<HTMLElement> {
     segments: {
@@ -55,12 +56,9 @@ export function Breadcrumbs({
                             {isFirstSegment ? (
                                 <Link
                                     href="/"
-                                    title="RZ Clean - Commercial Cleaning"
+                                    title={`${siteConfig.title}`}
                                 >
-                                    <Icons.home
-                                        aria-hidden
-                                        className="w-4 h-4"
-                                    />
+                                    {siteConfig.title}
                                 </Link>
                             ) : (
                                 <Link

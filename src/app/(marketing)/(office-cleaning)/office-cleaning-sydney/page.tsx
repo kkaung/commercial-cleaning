@@ -21,10 +21,6 @@ export default function Page() {
             segments={[
                 { title: 'Home', href: '/' },
                 {
-                    title: 'Commercial Cleaning Sydney',
-                    href: '/commercial-cleaning-sydney',
-                },
-                {
                     title: 'Office Cleaning',
                     href: '/office-cleaning-sydney',
                 },

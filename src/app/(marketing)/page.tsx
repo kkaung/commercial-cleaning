@@ -8,9 +8,6 @@ import LatestPost from './_components/latest-posts';
 import FAQs from './_components/faqs';
 import Reviews from './_components/reviews';
 import Features from './_components/features';
-import Sponsorship from './_components/sponsorship';
-
-export const runtime = 'edge';
 
 export function generateMetadata(): Metadata {
     const pathname = getPathname();
@@ -19,7 +16,7 @@ export function generateMetadata(): Metadata {
         title: `Australia's Most Reliable Commercial Cleaning Company`,
         description: `Get a sparkling clean workspace today! Boost your employee wellbeing & productivity with our reliable commercial cleaning services across Australia.`,
         alternates: {
-            canonical: pathname,
+            canonical: '/',
         },
     };
 }
@@ -32,7 +29,6 @@ export default function Page() {
             <Features />
             <FAQs />
             <LatestPost />
-            <Sponsorship />
         </Shell>
     );
 }

@@ -8,22 +8,6 @@ export { isType } from 'contentlayer/client'
 export type { Markdown, MDX, ImageFieldData, IsoDateTimeString }
 
 /** Document types */
-export type Author = {
-  /** File path relative to `contentDirPath` */
-  _id: string
-  _raw: Local.RawDocumentData
-  type: 'Author'
-  title: string
-  description?: string | undefined
-  avatar: string
-  linkin: string
-  /** MDX file body */
-  body: MDX
-  slug: string
-  slugAsParams: string
-  readingTime: number
-}
-
 export type Page = {
   /** File path relative to `contentDirPath` */
   _id: string
@@ -54,6 +38,38 @@ export type Post = {
   slug: string
   slugAsParams: string
   readingTime: number
+}
+
+export type Product = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Product'
+  title: string
+  description?: string | undefined
+  price: number
+  image: string
+  ratingValue: string
+  ratingCount: number
+  /** MDX file body */
+  body: MDX
+  slug: string
+  slugAsParams: string
+  readingTime: number
+}
+
+export type Service = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Service'
+  title: string
+  description?: string | undefined
+  /** MDX file body */
+  body: MDX
+  slug: string
+  slugAsParams: string
+  readingTime: number
 }  
 
 /** Nested types */
@@ -64,8 +80,8 @@ export type Post = {
 export type AllTypes = DocumentTypes | NestedTypes
 export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 
-export type DocumentTypes = Author | Page | Post
-export type DocumentTypeNames = 'Author' | 'Page' | 'Post'
+export type DocumentTypes = Page | Post | Product | Service
+export type DocumentTypeNames = 'Page' | 'Post' | 'Product' | 'Service'
 
 export type NestedTypes = never
 export type NestedTypeNames = never
@@ -74,7 +90,8 @@ export type DataExports = {
   allDocuments: DocumentTypes[]
   allPages: Page[]
   allPosts: Post[]
-  allAuthors: Author[]
+  allServices: Service[]
+  allProducts: Product[]
 }
 
 
@@ -94,9 +111,10 @@ declare global {
 }
 
 export type DocumentTypeMap = {
-  Author: Author
   Page: Page
   Post: Post
+  Product: Product
+  Service: Service
 }
 
 export type NestedTypeMap = {

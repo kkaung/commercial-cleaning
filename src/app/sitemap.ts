@@ -1,6 +1,6 @@
 import { type MetadataRoute } from 'next';
 import { absoluteUrl } from '@/lib/utils';
-import { allPosts, allPages, allAuthors } from 'contentlayer/generated';
+import { allPosts, allPages, allProducts } from 'contentlayer/generated';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const pagesRoutes = allPages.map(page => ({
@@ -13,63 +13,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: new Date().toISOString(),
     }));
 
-    const authorsRoutes = allAuthors.map(post => ({
-        url: absoluteUrl(`${post.slug}`),
-        lastModified: new Date().toISOString(),
-    }));
-
-    const routes = [
-        '',
-        '/blog',
-
-        '/commercial-cleaning-sydney',
-        '/commercial-cleaning-melbourne',
-
-        '/office-cleaning-sydney',
-        '/office-cleaning-melbourne',
-
-        '/strata-cleaning-sydney',
-        '/strata-cleaning-melbourne',
-
-        '/medical-cleaning-sydney',
-        '/medical-cleaning-melbourne',
-
-        '/gym-cleaning-sydney',
-        '/gym-cleaning-melbourne',
-
-        '/childcare-cleaning-sydney',
-        '/childcare-cleaning-melbourne',
-
-        '/hotel-cleaning-sydney',
-        '/hotel-cleaning-melbourne',
-
-        '/school-cleaning-sydney',
-        '/school-cleaning-melbourne',
-
-        '/warehouse-cleaning-sydney',
-        '/warehouse-cleaning-melbourne',
-
-        '/church-cleaning-sydney',
-        '/church-cleaning-melbourne',
-
-        '/club-cleaning-sydney',
-        '/club-cleaning-melbourne',
-
-        '/supermarket-cleaning-sydney',
-        '/supermarket-cleaning-melbourne',
-
-        '/restaurant-cleaning-sydney',
-        '/restaurant-cleaning-melbourne',
-
-        '/showroom-cleaning-sydney',
-        '/showroom-cleaning-melbourne',
-
-        '/aged-care-cleaning-sydney',
-        '/aged-care-cleaning-melbourne',
-    ].map(route => ({
+    const routes = [''].map(route => ({
         url: absoluteUrl(route),
         lastModified: new Date().toISOString(),
     }));
 
-    return [...routes, ...pagesRoutes, ...postsRoutes, ...authorsRoutes];
+    const productsRoute = allProducts.map(product => ({
+        url: absoluteUrl(`${product.slug}`),
+        lastModified: new Date().toISOString(),
+    }));
+
+    return [...routes, ...pagesRoutes, ...postsRoutes, ...productsRoute];
 }

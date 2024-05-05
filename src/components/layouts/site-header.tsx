@@ -7,6 +7,8 @@ import { type HTMLAttributes } from 'react';
 import { cn } from '@/lib/utils';
 import { buttonVariants } from '@/components/ui/button';
 
+import { Icons } from '../icons';
+
 interface SiteHeaderProps extends HTMLAttributes<HTMLElement> {}
 
 const SiteHeader = ({ ...props }: SiteHeaderProps) => {
@@ -24,11 +26,19 @@ const SiteHeader = ({ ...props }: SiteHeaderProps) => {
                         mainNavItems={siteConfig.mainNav}
                         sidebarNavItems={siteConfig.mainNav}
                     />
-                    <Link aria-label="Home" href="/">
-                        <span className="text-lg font-extrabold italic text-primary md:text-2xl">
+                    <div className="relative">
+                        <span className="text-lg font-extrabold italic text-primary text-nowrap md:text-2xl">
                             {siteConfig.logo}
                         </span>
-                    </Link>
+                        <Link
+                            aria-label="Home"
+                            href="/"
+                            title={siteConfig.title}
+                            className="inset-0 absolute"
+                        >
+                            <span className="sr-only">{siteConfig.title}</span>
+                        </Link>
+                    </div>
                 </div>
                 <nav className="flex lg:flex-1 gap-4 items-center justify-between">
                     <MainNav items={siteConfig.mainNav} />
@@ -38,6 +48,14 @@ const SiteHeader = ({ ...props }: SiteHeaderProps) => {
                             href="/booking"
                         >
                             Get A Quote
+                        </Link>
+                        <Link
+                            href="/cart"
+                            className={cn(
+                                buttonVariants({ variant: 'secondary' })
+                            )}
+                        >
+                            <Icons.shoppingCart className="w-4 h-4" />
                         </Link>
                     </div>
                 </nav>
