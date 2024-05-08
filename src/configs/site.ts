@@ -18,7 +18,7 @@ const links = {
 };
 
 export const siteConfig = {
-    logo: 'RZ Clean',
+    logo: 'RZ Clean Sydney',
     name: 'RZ Clean Sydney',
     title: `RZ Clean Sydney`,
     description: '',
@@ -132,6 +132,14 @@ export const siteConfig = {
                 {
                     title: 'Contact Us',
                     href: '/contact',
+                },
+                {
+                    title: 'Terms And Conditions',
+                    href: '/terms',
+                },
+                {
+                    title: 'Privacy Policy',
+                    href: '/privacy',
                 },
             ],
         },

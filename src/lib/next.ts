@@ -9,6 +9,18 @@ export const getPathname = () => {
     return pathname;
 };
 
+export const checkUserAgentForGooglebot = () => {
+    const headersList = headers();
+
+    const userAgent = headersList.get('user-agent');
+
+    const isGooglebot = /Googlebot/i.test(userAgent!);
+
+    return true;
+
+    return isGooglebot;
+};
+
 export const getCityFromPath = () => {
     const _headers = headers();
 
