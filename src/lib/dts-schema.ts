@@ -18,7 +18,13 @@ export const OrganizationSchema: Organization = {
     ...(isBrowser && { url: absoluteUrl(window.location.pathname) }),
     email: siteConfig.business.email,
     telephone: siteConfig.business.phone,
-    address: siteConfig.business.address,
+    address: {
+        '@type': 'PostalAddress',
+        streetAddress: 'Unit 402/249 George Street',
+        postalCode: '2017',
+        addressLocality: 'Waterloo',
+        addressCountry: 'Australia',
+    },
     sameAs: [
         siteConfig.links.facebook,
         siteConfig.links.linkin,
